@@ -3,7 +3,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/alexandear-org/easyjson/jwriter"
+	"github.com/mailru/easyjson/jwriter"
 )
 
 func TestHTML(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/alexandear-org/easyjson
+module github.com/mailru/easyjson
 
 go 1.20
 

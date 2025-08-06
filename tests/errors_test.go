@@ -3,7 +3,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/alexandear-org/easyjson/jlexer"
+	"github.com/mailru/easyjson/jlexer"
 )
 
 func TestMultipleErrorsInt(t *testing.T) {

@@ -1,9 +1,9 @@
 package tests
 
 import (
-	"github.com/alexandear-org/easyjson"
-	"github.com/alexandear-org/easyjson/jlexer"
-	"github.com/alexandear-org/easyjson/jwriter"
+	"github.com/mailru/easyjson"
+	"github.com/mailru/easyjson/jlexer"
+	"github.com/mailru/easyjson/jwriter"
 )
 
 //easyjson:json
@@ -23,3 +23,4 @@ func (s *StructWithMarshaler) UnmarshalEasyJSON(w *jlexer.Lexer) {
 func (s *StructWithMarshaler) MarshalEasyJSON(w *jwriter.Writer) {
 	w.Int(s.Value)
 }
+
